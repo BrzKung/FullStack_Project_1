@@ -149,7 +149,7 @@ exports.resetpassword = (req, res, next) => {
     res.send('resetpassword')
 }
 
-// const client = new OAuth2Client('454311245670-0in22j1hu72nkl2qrvjdna4i8qhnq7oo.apps.googleusercontent.com')
+const client = new OAuth2Client('454311245670-0in22j1hu72nkl2qrvjdna4i8qhnq7oo.apps.googleusercontent.com')
 
 exports.googlelogin = (req, res, next) => {
     const { tokenId } = req.body
